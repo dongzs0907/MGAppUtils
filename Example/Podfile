@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MGUtils_Example' do
+  pod 'MGUtils', :path => '../'
+
+  target 'MGUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
