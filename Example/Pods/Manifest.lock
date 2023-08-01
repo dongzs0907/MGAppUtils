@@ -1,0 +1,16 @@
+PODS:
+  - MGUtils (0.1.0)
+
+DEPENDENCIES:
+  - MGUtils (from `../`)
+
+EXTERNAL SOURCES:
+  MGUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGUtils: 16df123597ee4ed7edb1c630260606b483a2d249
+
+PODFILE CHECKSUM: b8e5577ad969b5ac33907010a003bb1ae57adff0
+
+COCOAPODS: 1.12.1

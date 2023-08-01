@@ -18,25 +18,27 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                MGUtils主要包含了常用宏和方法的工具类，是为了后期项目开发方便，仅供自己使用
                        DESC
 
-  s.homepage         = 'https://github.com/DongZhenShan/MGUtils'
+  s.homepage         = 'https://github.com/dongzs0907/MGUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DongZhenShan' => '68793512@qq.com' }
-  s.source           = { :git => 'https://github.com/DongZhenShan/MGUtils.git', :tag => s.version.to_s }
+  s.platform         = :ios, "12.0"
+  s.source           = { :git => 'https://github.com/dongzs0907/MGUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '12.0'
+  s.swift_versions = '5.0'
   s.source_files = 'MGUtils/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MGUtils' => ['MGUtils/Assets/*.png']
-  # }
+  #s.resource_bundles = {
+   # 'MGUtils' => ['MGUtils/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MBProgressHUD', '0.9.2'
 end
