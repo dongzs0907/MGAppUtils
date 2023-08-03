@@ -1,9 +1,9 @@
-# MGUtils
+# MGAppUtils
 
-[![CI Status](https://img.shields.io/travis/DongZhenShan/MGUtils.svg?style=flat)](https://travis-ci.org/DongZhenShan/MGUtils)
-[![Version](https://img.shields.io/cocoapods/v/MGUtils.svg?style=flat)](https://cocoapods.org/pods/MGUtils)
-[![License](https://img.shields.io/cocoapods/l/MGUtils.svg?style=flat)](https://cocoapods.org/pods/MGUtils)
-[![Platform](https://img.shields.io/cocoapods/p/MGUtils.svg?style=flat)](https://cocoapods.org/pods/MGUtils)
+[![CI Status](https://img.shields.io/travis/DongZhenShan/MGUtils.svg?style=flat)](https://travis-ci.org/DongZhenShan/MGAppUtils)
+[![Version](https://img.shields.io/cocoapods/v/MGUtils.svg?style=flat)](https://cocoapods.org/pods/MGAppUtils)
+[![License](https://img.shields.io/cocoapods/l/MGUtils.svg?style=flat)](https://cocoapods.org/pods/MGAppUtils)
+[![Platform](https://img.shields.io/cocoapods/p/MGUtils.svg?style=flat)](https://cocoapods.org/pods/MGAppUtils)
 
 ## Example
 
@@ -17,7 +17,7 @@ MGUtils is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MGUtils'
+pod 'MGAppUtils'
 ```
 
 ## Author
