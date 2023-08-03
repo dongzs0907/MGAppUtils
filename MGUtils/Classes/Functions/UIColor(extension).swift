@@ -8,8 +8,12 @@
 
 import Foundation
 extension UIColor{
-    // 16进制转RGB
-      convenience init(_ hex: String) {
+    
+    /// 16进制转RGB
+    /// - Parameters:
+    ///   - hex: 色值
+    ///   - alpha: 透明度 0-1.0
+    convenience init(_ hex: String, _ alpha: CGFloat =  1.0) {
           // 处理输入字符串
           var cString = hex.uppercased().trimmingCharacters(in: .whitespacesAndNewlines)
           
@@ -36,11 +40,17 @@ extension UIColor{
           let b = UInt8(bString, radix: 16) ?? 0
           
           // 根据颜色值创建 UIColor
-          self.init(red: CGFloat(r) / 255.0, green: CGFloat(g) / 255.0, blue: CGFloat(b) / 255.0, alpha: 1.0)
+          self.init(red: CGFloat(r) / 255.0, green: CGFloat(g) / 255.0, blue: CGFloat(b) / 255.0, alpha: alpha)
       }
     
     
-    /** RGB值 */
+    
+    /// RGB值
+    /// - Parameters:
+    ///   - r: red
+    ///   - g: green
+    ///   - b: blue
+    ///   - a: alpha
     convenience init(r:CGFloat,g:CGFloat,b:CGFloat,a:CGFloat){
         self.init(red: r/255.0, green: g/255.0, blue: b/255.0, alpha: a)
     }

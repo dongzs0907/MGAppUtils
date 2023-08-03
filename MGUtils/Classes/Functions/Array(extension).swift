@@ -9,7 +9,7 @@
 import Foundation
 extension Array{
     /// 去重
-    func filterDuplicates<E: Equatable>(_ filter: (Element) -> E) -> [Element] {
+   public func filterDuplicates<E: Equatable>(_ filter: (Element) -> E) -> [Element] {
         var result = [Element]()
         for value in self {
             let key = filter(value)

@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 extension UILabel{
     
-    @IBInspectable public var Localizable:String {
+    @IBInspectable public var tr:String {
         get{
-            return self.Localizable;
+            return self.tr;
         }
         set{
-            self.text = NSLocalizedString(newValue, comment: "")
+            self.text = newValue.tr()
         }
     }
     
@@ -24,12 +24,12 @@ extension UILabel{
 
 extension UIButton{
     
-    @IBInspectable public var Localizable:String {
+    @IBInspectable public var tr:String {
         get{
-            return self.Localizable;
+            return self.tr;
         }
         set{
-            self.setTitle(NSLocalizedString(newValue, comment: ""), for: UIControl.State.normal)
+            self.setTitle(newValue.tr(), for: UIControl.State.normal)
         }
     }
     

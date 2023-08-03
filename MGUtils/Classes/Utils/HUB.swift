@@ -20,7 +20,7 @@ class Toast:MBProgressHUD{
     /// - Parameters:
     ///   - error: 错误信息
     ///   - toView: 将要展示于哪个视图
-    class func showError(_ error:String, _ toView:UIView = keyWindow){
+    public class func showError(_ error:String, _ toView:UIView = keyWindow){
         self.showCustomIcon(iconName: "app_close_line", title: error, toView: toView)
     }
     
@@ -28,7 +28,7 @@ class Toast:MBProgressHUD{
     /// - Parameters:
     ///   - success: 将要显示的文本
     ///   - toView: 将要展示于哪个视图
-    class func showSuccess(_ success:String, _ toView:UIView = keyWindow){
+    public class func showSuccess(_ success:String, _ toView:UIView = keyWindow){
         self.showCustomIcon(iconName: "app_check_line", title: success, toView: toView)
     }
     
@@ -37,7 +37,7 @@ class Toast:MBProgressHUD{
     /// - Parameters:
     ///   - message: 文本
     ///   - toView: 将要展示于哪个视图
-    class func showLoading(_ message:String="Loading...", _ toView:UIView = keyWindow){
+    public class func showLoading(_ message:String="Loading...", _ toView:UIView = keyWindow){
         _ = self.createMessage(message: message, toView: toView)
     }
     
@@ -47,14 +47,14 @@ class Toast:MBProgressHUD{
     ///   - message: 文本
     ///   - delayTime: 展示时长
     ///   - toView: 将要展示于哪个视图
-    class func showAutoHideMsg(_ message:String, delayTime:Float=afterDelay,toView:UIView = keyWindow){
+    public class func showAutoHideMsg(_ message:String, delayTime:Float=afterDelay,toView:UIView = keyWindow){
         self.createAutoHideCustomHUD1(message: message, toView: toView, remainTime: delayTime, mode: .text)
     }
     
     
     /// 隐藏toast
     /// - Parameter view: 将要移除视图上的toast
-    class func hide(view:UIView=keyWindow){
+    public class func hide(view:UIView=keyWindow){
         do{
             if (Thread.isMainThread){
                 MBProgressHUD.hide(for: view, animated: true)

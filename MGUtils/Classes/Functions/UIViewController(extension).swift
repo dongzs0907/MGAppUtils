@@ -8,9 +8,6 @@
 
 import Foundation
 
-enum StoryboardName : String {
-    case Main = "Main"
-}
 
 extension UIViewController{
     
@@ -33,8 +30,8 @@ extension UIViewController{
         self.navigationController?.popViewController(animated: true)
     }
     
-    class func initStoryboard(_ storyboard:StoryboardName = .Main) -> UIViewController{
-        return UIStoryboard(name: storyboard.rawValue, bundle: Bundle.main).instantiateViewController(withIdentifier: NSStringFromClass(self).components(separatedBy: ".").last!)
+    public class func initStoryboard(_ storyboard:String) -> UIViewController{
+        return UIStoryboard(name: storyboard, bundle: Bundle.main).instantiateViewController(withIdentifier: NSStringFromClass(self).components(separatedBy: ".").last!)
     }
     
     @objc public func commonBackAction(){

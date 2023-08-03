@@ -8,7 +8,7 @@
 
 import Foundation
 extension UIView{
-    var left:CGFloat{
+    public var left:CGFloat{
         set{
             var frame = self.frame
             frame.origin.x = newValue
@@ -19,7 +19,7 @@ extension UIView{
         }
     }
     
-    var top:CGFloat{
+    public var top:CGFloat{
         set{
             var frame = self.frame
             frame.origin.y = newValue
@@ -30,7 +30,7 @@ extension UIView{
         }
     }
     
-    var right:CGFloat{
+    public var right:CGFloat{
         set{
             var frame = self.frame
             frame.origin.x = newValue - frame.size.width
@@ -41,7 +41,7 @@ extension UIView{
         }
     }
     
-    var bottom:CGFloat{
+    public var bottom:CGFloat{
         set{
             var frame = self.frame
             frame.origin.y = newValue - frame.size.height
@@ -52,7 +52,7 @@ extension UIView{
         }
     }
     
-    var width:CGFloat{
+    public var width:CGFloat{
         set{
             var frame = self.frame
             frame.size.width = newValue
@@ -63,7 +63,7 @@ extension UIView{
         }
     }
     
-    var height:CGFloat{
+    public var height:CGFloat{
         set{
             var frame = self.frame
             frame.size.height = newValue
@@ -74,7 +74,7 @@ extension UIView{
         }
     }
     
-    var centerX:CGFloat{
+    public var centerX:CGFloat{
         set{
             self.center = CGPoint(x:newValue, y:self.center.y)
         }
@@ -83,7 +83,7 @@ extension UIView{
         }
     }
     
-    var centerY:CGFloat{
+    public var centerY:CGFloat{
         set{
             self.center = CGPoint(x:self.center.x, y:newValue)
         }
@@ -93,25 +93,25 @@ extension UIView{
     }
     
     /** 裁圆角 */
-    func viewRadius(radius:CGFloat){
+    public func viewRadius(radius:CGFloat){
         self.layer.cornerRadius = radius
         self.clipsToBounds = true
     }
     
     /** 边框 */
-    func viewBorder(borderW : CGFloat,borderColor : UIColor){
+    public func viewBorder(borderW : CGFloat,borderColor : UIColor){
         self.layer.borderWidth = borderW
         self.layer.borderColor = borderColor.cgColor
         self.clipsToBounds = true
     }
     /** 边框加圆角 */
-    func viewRadiusAndBorder(radius:CGFloat,borderW:CGFloat,borderColor:UIColor){
+    public func viewRadiusAndBorder(radius:CGFloat,borderW:CGFloat,borderColor:UIColor){
         self.viewRadius(radius: radius)
         self.viewBorder(borderW: borderW, borderColor: borderColor)
     }
     
     /** 获取当前显示的控制器 */
-    func parentViewController() -> UIViewController? {
+    public func parentViewController() -> UIViewController? {
         
         let n = next
         
@@ -132,14 +132,14 @@ extension UIView{
 
 public extension UIButton {
     /// 设置字体
-    var font: UIFont? {
-        get{
-            return self.titleLabel?.font;
-        }
-        set{
-            self.titleLabel?.font = newValue ?? UIFont.systemFont(ofSize: 16, weight: .regular);
-        }
-    }
+//    public var font: UIFont? {
+//        get{
+//            return self.titleLabel?.font;
+//        }
+//        set{
+//            self.titleLabel?.font = newValue ?? UIFont.systemFont(ofSize: 16, weight: .regular);
+//        }
+//    }
 }
 
 

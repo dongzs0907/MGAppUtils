@@ -8,7 +8,7 @@
 
 import Foundation
 
-class LaunchManage:NSObject {
+public class LaunchManage:NSObject {
     
     private var userDefaultsKey:String = "LaunchManage_LaunchCount"
     
@@ -29,7 +29,7 @@ class LaunchManage:NSObject {
     private override init(){}
     /// 启动
     func launch(){
-        let nowDate = D_NowDate.DateFormatterString(.date)
+        let nowDate = D_NowDate.dateFormatterString(.date)
         var arr = UserDefaults.standard.object(forKey: userDefaultsKey) as? [String] ?? []
         arr.append(nowDate)
         UserDefaults.standard.set(arr, forKey: userDefaultsKey)

@@ -1,6 +1,0 @@
-framework module MGUtils {
-  umbrella header "MGUtils-umbrella.h"
-
-  export *
-  module * { export * }
-}

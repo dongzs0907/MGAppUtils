@@ -13,7 +13,7 @@ public var D_NowDate:String{
     return "\(Date.init().timeIntervalSince1970.int)"
 }
 
-enum DateFormatterType{
+public enum DateFormatterType{
     /// 日期 yyyy-MM-dd
     case date
     /// 时间 HH:mm:ss
@@ -26,7 +26,7 @@ enum DateFormatterType{
 
 extension String{
     /// 时间戳 格式化
-    func DateFormatterString(_ type:DateFormatterType) -> String {
+    public func dateFormatterString(_ type:DateFormatterType) -> String {
         var formatStr = ""
         switch type {
         case .date:
