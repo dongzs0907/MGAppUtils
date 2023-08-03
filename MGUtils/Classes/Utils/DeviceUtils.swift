@@ -86,7 +86,7 @@ class DeviceUtils:NSObject {
     /// - Parameters:
     ///   - appId: app id
     ///   - onResult: 返回是否超前
-    public func checkVersion(appId:String,onResult:((_ isPreRelease:Bool)->())){
+    public func checkVersion(appId:String,onResult:@escaping ((_ isPreRelease:Bool)->())){
         self.getItunesAppVersion { versionStr in
             if versionStr != nil{
                 let itunesVersion = self.formatVersionString(version: versionStr!);

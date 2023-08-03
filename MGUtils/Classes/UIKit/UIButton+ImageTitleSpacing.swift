@@ -23,8 +23,8 @@ extension UIButton{
     public func layoutButtonWithEdgeInsetsStyle(style:ButtonEdgeInsetsStyle, space:CGFloat){
         let imageWidth = self.imageView?.frame.size.width ?? 0;
         let imageHeight = self.imageView?.frame.size.height ?? 0;
-        var labelWidth = self.titleLabel?.intrinsicContentSize.width ?? 0;
-        var labelHeight = self.titleLabel?.intrinsicContentSize.height ?? 0;
+        let labelWidth = self.titleLabel?.intrinsicContentSize.width ?? 0;
+        let labelHeight = self.titleLabel?.intrinsicContentSize.height ?? 0;
         var imageEdgeInsets = UIEdgeInsets.zero
         var labelEdgeInsets = UIEdgeInsets.zero
         switch (style){

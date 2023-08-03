@@ -11,7 +11,6 @@
 #endif
 
 #import "CALayer+Heartbeat.h"
-#import "UIButton+ImageTitleSpacing.h"
 
 FOUNDATION_EXPORT double MG_UtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char MG_UtilsVersionString[];

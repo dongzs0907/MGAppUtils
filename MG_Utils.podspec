@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MG_Utils'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of MGUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -36,12 +36,11 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'MG_Utils' => ['MGUtils/Assets/*.png']
   }
-  #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'MBProgressHUD', '0.9.2'
-  s.dependency 'Firebase/Analytics'
-  #s.dependency 'Google-Mobile-Ads-SDK'
+   s.dependency 'MBProgressHUD', '~> 1.2.0'
+  
 end

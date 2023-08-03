@@ -72,42 +72,42 @@ class Toast:MBProgressHUD{
     fileprivate class func showCustomIcon(iconName:String,title:String,toView:UIView = keyWindow){
         
         let hud = MBProgressHUD.showAdded(to: toView, animated: true)
-        hud?.detailsLabelText = title
-        hud?.customView = UIImageView.init(image: .init(named: iconName))
-        hud?.mode = .customView;
-        hud?.detailsLabelFont = hud?.labelFont;
-        hud?.removeFromSuperViewOnHide = true;
+        hud.detailsLabel.text = title;
+        hud.customView = UIImageView.init(image: .init(named: iconName))
+        hud.mode = .customView;
+        hud.detailsLabel.font = hud.label.font;
+        hud.removeFromSuperViewOnHide = true;
         if toView.superview == nil && toView.isKind(of: UIWindow.self) != true{
-            hud?.yOffset = -64;
+            hud.offset.y = -64;
         }
-        hud?.hide(true, afterDelay: TimeInterval(afterDelay))
+        hud.hide(animated: true, afterDelay: TimeInterval(afterDelay))
     }
     
     
     
     fileprivate class func createMessage(message:String,toView:UIView = keyWindow) -> MBProgressHUD{
         let hud = MBProgressHUD.showAdded(to: toView, animated: true)
-        hud?.detailsLabelText = message
-        hud?.detailsLabelFont = hud?.labelFont;
-        hud?.removeFromSuperViewOnHide = true;
-        hud?.dimBackground = false;
+        hud.detailsLabel.text = message
+        hud.detailsLabel.font = hud.label.font;
+        hud.removeFromSuperViewOnHide = true;
+//        hud.dimBackground = false;
         if toView.superview == nil && toView.isKind(of: UIWindow.self) != true{
-            hud?.yOffset = -64;
+            hud.offset.y = -64;
         }
-        return hud!
+        return hud
     }
     
     fileprivate class func createAutoHideCustomHUD1(message:String,toView:UIView=keyWindow, remainTime:Float=afterDelay, mode:MBProgressHUDMode = .text){
         let hud = MBProgressHUD.showAdded(to: toView, animated: true)
-        hud?.detailsLabelText = message
-        hud?.detailsLabelFont = hud?.labelFont;
-        hud?.mode = mode;
-        hud?.removeFromSuperViewOnHide = true;
-        hud?.dimBackground = false;
+        hud.detailsLabel.text = message
+        hud.detailsLabel.font = hud.label.font;
+        hud.mode = mode;
+        hud.removeFromSuperViewOnHide = true;
+//        hud.dimBackground = false;
         if toView.superview == nil && toView.isKind(of: UIWindow.self) != true{
-            hud?.yOffset = -64;
+            hud.offset.y = -64;
         }
-        hud?.hide(true, afterDelay: TimeInterval(remainTime))
+        hud.hide(animated:true, afterDelay: TimeInterval(remainTime))
     }
     
     

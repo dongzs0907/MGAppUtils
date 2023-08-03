@@ -1,4 +1,4 @@
-framework module MG_Utils {
+module MG_Utils {
   umbrella header "MG_Utils-umbrella.h"
 
   export *
