@@ -12,6 +12,6 @@
 
 #import "CALayer+Heartbeat.h"
 
-FOUNDATION_EXPORT double MG_UtilsVersionNumber;
-FOUNDATION_EXPORT const unsigned char MG_UtilsVersionString[];
+FOUNDATION_EXPORT double MGAppUtilsVersionNumber;
+FOUNDATION_EXPORT const unsigned char MGAppUtilsVersionString[];
 

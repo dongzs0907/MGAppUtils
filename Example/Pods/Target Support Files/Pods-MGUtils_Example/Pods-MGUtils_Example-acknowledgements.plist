@@ -65,7 +65,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>MG_Utils</string>
+			<string>MGAppUtils</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

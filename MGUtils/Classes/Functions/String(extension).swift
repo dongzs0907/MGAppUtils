@@ -55,7 +55,7 @@ extension String{
     }
     
     /// 本地化
-    func tr() -> String{
+    public func tr() -> String{
         return NSLocalizedString(self, comment: self);
     }
     

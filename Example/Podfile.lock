@@ -1,23 +1,23 @@
 PODS:
   - MBProgressHUD (1.2.0)
-  - MG_Utils (0.1.2):
+  - MGAppUtils (0.1.2):
     - MBProgressHUD (~> 1.2.0)
 
 DEPENDENCIES:
-  - MG_Utils (from `../`)
+  - MGAppUtils (from `../`)
 
 SPEC REPOS:
   trunk:
     - MBProgressHUD
 
 EXTERNAL SOURCES:
-  MG_Utils:
+  MGAppUtils:
     :path: "../"
 
 SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MG_Utils: e0f7607e3cadf45f408e5875e30b011031e0600d
+  MGAppUtils: f27416eb664da51b147a966f073132689b293b14
 
-PODFILE CHECKSUM: 476bb6a7b5d31ddd85fb898e783f4c5289bb62ce
+PODFILE CHECKSUM: 3eff599050b51b58583004dd66791734fe58616f
 
 COCOAPODS: 1.12.1

@@ -9,11 +9,11 @@ import Foundation
 import MBProgressHUD
 import UIKit
 
-class Toast:MBProgressHUD{
+public class Toast:MBProgressHUD{
     
-    private static let afterDelay:Float = 2
+    public static let afterDelay:Float = 2
     
-    private static let keyWindow:UIWindow = UIApplication.shared.windows.filter {$0.isKeyWindow}.first!
+    public static let keyWindow:UIWindow = UIApplication.shared.windows.filter {$0.isKeyWindow}.first!
     
     
     /// 显示错误提示toast

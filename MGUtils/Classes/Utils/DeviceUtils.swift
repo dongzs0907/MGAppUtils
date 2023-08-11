@@ -8,8 +8,8 @@
 
 import UIKit
 
-class DeviceUtils:NSObject {
-    static let shared = DeviceUtils()
+public class DeviceUtils:NSObject {
+    public static let shared = DeviceUtils()
     /// 获取设备宽
     public var screenWidth:CGFloat {
         return UIScreen.main.bounds.width;

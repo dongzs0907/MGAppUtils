@@ -1,0 +1,6 @@
+module MGAppUtils {
+  umbrella header "MGAppUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

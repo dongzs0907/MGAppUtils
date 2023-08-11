@@ -3,7 +3,7 @@ use_modular_headers!
 platform :ios, '12.0'
 
 target 'MGUtils_Example' do
-  pod 'MG_Utils', :path => '../'
+  pod 'MGAppUtils', :path => '../'
 
   target 'MGUtils_Tests' do
     inherit! :search_paths

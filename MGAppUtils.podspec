@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MG_Utils'
+  s.name             = 'MGAppUtils'
   s.version          = '0.1.2'
   s.summary          = 'A short description of MGUtils.'
 

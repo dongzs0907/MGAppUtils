@@ -12,10 +12,10 @@ public class LaunchManage:NSObject {
     
     private var userDefaultsKey:String = "LaunchManage_LaunchCount"
     
-    static let shared = LaunchManage()
+    public static let shared = LaunchManage()
     
     /// 是否是第一次启动
-    var isFirstLaunch: Bool {
+    public var isFirstLaunch: Bool {
         return nowDayLaunchCount == 1;
     }
     
@@ -28,7 +28,7 @@ public class LaunchManage:NSObject {
     
     private override init(){}
     /// 启动
-    func launch(){
+    public func launch(){
         let nowDate = D_NowDate.dateFormatterString(.date)
         var arr = UserDefaults.standard.object(forKey: userDefaultsKey) as? [String] ?? []
         arr.append(nowDate)

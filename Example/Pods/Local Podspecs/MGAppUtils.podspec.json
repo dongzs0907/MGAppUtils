@@ -1,5 +1,5 @@
 {
-  "name": "MG_Utils",
+  "name": "MGAppUtils",
   "version": "0.1.2",
   "summary": "A short description of MGUtils.",
   "description": "MGUtils主要包含了常用宏和方法的工具类，是为了后期项目开发方便，仅供自己使用",
@@ -24,6 +24,9 @@
     "MG_Utils": [
       "MGUtils/Assets/*.png"
     ]
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
   },
   "dependencies": {
     "MBProgressHUD": [
