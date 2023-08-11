@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MGAppUtils'
-  s.version          = '0.1.4'
-  s.summary          = 'A short description of MGUtils.'
+  s.version          = '0.1.5'
+  s.summary          = 'A short description of MGAppUtils.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                MGUtils主要包含了常用宏和方法的工具类，是为了后期项目开发方便，仅供自己使用
+                  MGAppUtils主要包含了常用宏和方法的工具类，是为了后期项目开发方便，仅供自己使用
                        DESC
 
   s.homepage         = 'https://github.com/dongzs0907/MGAppUtils'
