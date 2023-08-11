@@ -77,7 +77,7 @@
 		04E2F664EF0743A0B8E12026A0F0914F /* Pods-MGUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		09698FD5D7906CE2E5F96FC65A325EF6 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		1E09D6D4EFAE12DFD92628549C95FF9F /* MGAppUtils-MG_Utils */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MGAppUtils-MG_Utils"; path = MG_Utils.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FAF805E6BAFE67A1F3610CEAC91B203 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1FAF805E6BAFE67A1F3610CEAC91B203 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		21027D2EA55CB28D122A3355F126781E /* Date(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date(extension).swift"; sourceTree = "<group>"; };
 		2BE9099DADC4CFFA9671CDBFD271C844 /* Pods-MGUtils_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-MGUtils_Example"; path = "libPods-MGUtils_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4B71DE411877E7264CB2C33D0AD12F /* Pods-MGUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGUtils_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		943FCCFED46226B598942B9E64BE3F8E /* String(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String(extension).swift"; sourceTree = "<group>"; };
 		979795E8E45B035086F37C230B34BEBD /* Pods-MGUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9A1581D155C7C8B8362B647FE7FA7666 /* Pods-MGUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0D87F6D570F0AFF720E7A2AD84F2156 /* UITableView(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView(extension).swift"; sourceTree = "<group>"; };
 		A29428D5996D8AC6FA10A4C2D7C2DA47 /* HUB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HUB.swift; sourceTree = "<group>"; };
 		A7CA2F0C64C970E9F625432F6AC7FAE3 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
@@ -116,11 +116,11 @@
 		AE298FAA0C5E39EEE83C9D45C73FF5D3 /* CALayer+Heartbeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+Heartbeat.h"; sourceTree = "<group>"; };
 		AED26A8A7EBEAAC355BDA67033AF2B25 /* Pods-MGUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AEFC79E158B1DD5168AB6840936D60DB /* MGAppUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGAppUtils-umbrella.h"; sourceTree = "<group>"; };
-		BC480284D62312FE332B0B6C70F3B521 /* MGAppUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MGAppUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC480284D62312FE332B0B6C70F3B521 /* MGAppUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MGAppUtils.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		CC485BD4C3285CD511B79183E5B5C2E4 /* CALayer+Heartbeat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Heartbeat.m"; sourceTree = "<group>"; };
 		D6795D4AE07BD5BA4D50ACB575F8394B /* Pods-MGUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGUtils_Example-dummy.m"; sourceTree = "<group>"; };
 		D6AC7EBB2B02B72C94B4341F00210877 /* MGAppUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGAppUtils-dummy.m"; sourceTree = "<group>"; };
-		D7EE580CC4C722E1AD0CF2264FBF44C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D7EE580CC4C722E1AD0CF2264FBF44C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E3C3EE23F59529588B3EAA4EB1A22D8E /* UIView(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView(extension).swift"; sourceTree = "<group>"; };
 		E6584E1984A3CC79C447B818C6F79920 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E70CE4BB788BBAAFA33F936156A76A92 /* Pods-MGUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -176,7 +176,6 @@
 				6152B0CD59AAF2557B3AA4375B61BEED /* MBProgressHUD.m */,
 				EFAA761B7E710C0CCA0130093F974789 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -885,8 +884,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
