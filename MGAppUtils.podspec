@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
                 MGUtils主要包含了常用宏和方法的工具类，是为了后期项目开发方便，仅供自己使用
                        DESC
 
-  s.homepage         = 'https://github.com/dongzs0907/MGUtils'
+  s.homepage         = 'https://github.com/dongzs0907/MGAppUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DongZhenShan' => '68793512@qq.com' }
   s.platform         = :ios, "12.0"
-  s.source           = { :git => 'https://github.com/dongzs0907/MGUtils.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dongzs0907/MGAppUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
