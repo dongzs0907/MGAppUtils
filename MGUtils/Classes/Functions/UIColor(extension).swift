@@ -7,7 +7,7 @@
 //
 
 import Foundation
-extension UIColor{
+public extension UIColor{
     
     /// 16进制转RGB
     /// - Parameters:
@@ -55,5 +55,42 @@ extension UIColor{
         self.init(red: r/255.0, green: g/255.0, blue: b/255.0, alpha: a)
     }
     
+    
+    /// dark mode color
+    /// - Parameters:
+    ///   - light: light
+    ///   - dark: dark
+    convenience init(light:UIColor,dark:UIColor){
+        if #available(iOS 13.0, *) {
+            self.init { trainCollection in
+                if (trainCollection.userInterfaceStyle == .light){
+                    return light;
+                }else{
+                    return dark;
+                }
+            }
+        }else{
+            self.init()
+        }
+    }
+    
+    
+    /// dark mode hex color
+    /// - Parameters:
+    ///   - light: light color hex
+    ///   - dark: dark color hex
+    convenience init(light:String,dark:String){
+        if #available(iOS 13.0, *) {
+            self.init { trainCollection in
+                if (trainCollection.userInterfaceStyle == .light){
+                    return UIColor.init(light);
+                }else{
+                    return UIColor.init(dark);
+                }
+            }
+        }else{
+            self.init()
+        }
+    }
     
 }

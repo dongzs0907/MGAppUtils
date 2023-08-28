@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MGAppUtils'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of MGAppUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -44,3 +44,11 @@ Pod::Spec.new do |s|
    s.dependency 'MBProgressHUD', '~> 1.2.0'
   
 end
+# git add .
+# git commit -m ""
+# git push origin master
+# git tag 0.1.5
+# git push origin --tag
+# pod trunk push MGAppUtils.podspec --allow-warnings
+#
+
