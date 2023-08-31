@@ -1,9 +1,9 @@
 # MGAppUtils
 
-[![CI Status](https://img.shields.io/travis/DongZhenShan/MGUtils.svg?style=flat)](https://travis-ci.org/DongZhenShan/MGAppUtils)
-[![Version](https://img.shields.io/cocoapods/v/MGUtils.svg?style=flat)](https://cocoapods.org/pods/MGAppUtils)
-[![License](https://img.shields.io/cocoapods/l/MGUtils.svg?style=flat)](https://cocoapods.org/pods/MGAppUtils)
-[![Platform](https://img.shields.io/cocoapods/p/MGUtils.svg?style=flat)](https://cocoapods.org/pods/MGAppUtils)
+[![CI Status](https://img.shields.io/travis/DongZhenShan/MGAppUtils.svg?style=flat)](https://travis-ci.org/DongZhenShan/MGAppUtils)
+[![Version](https://img.shields.io/cocoapods/v/MGAppUtils.svg?style=flat)](https://cocoapods.org/pods/MGAppUtils)
+[![License](https://img.shields.io/cocoapods/l/MGAppUtils.svg?style=flat)](https://cocoapods.org/pods/MGAppUtils)
+[![Platform](https://img.shields.io/cocoapods/p/MGAppUtils.svg?style=flat)](https://cocoapods.org/pods/MGAppUtils)
 
 ## Example
 
