@@ -15,7 +15,7 @@ extension UILabel{
             return self.text ?? "" ;
         }
         set{
-            self.text = newValue.tr()
+            self.text = NSLocalizedString(newValue, comment: "")
         }
     }
     
@@ -29,7 +29,7 @@ extension UIButton{
             return self.titleLabel?.text ?? "";
         }
         set{
-            self.setTitle(newValue.tr(), for: UIControl.State.normal)
+            self.setTitle(NSLocalizedString(newValue, comment: ""), for: UIControl.State.normal)
         }
     }
     
