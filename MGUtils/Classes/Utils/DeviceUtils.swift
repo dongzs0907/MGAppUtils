@@ -61,11 +61,12 @@ public class DeviceUtils:NSObject {
     /// 获取window
     public let keyWindow:UIWindow = {
         var window:UIWindow!
-        if #available(iOS 13.0, *) {
-            window = UIApplication.shared.windows.filter({ $0.isKeyWindow }).last!
-        }else{
-            window = UIApplication.shared.keyWindow!;
-        }
+//        if #available(iOS 13.0, *) {
+//            window = UIApplication.shared.windows.filter({ $0.isKeyWindow }).last!
+//        }else{
+//            window = UIApplication.shared.keyWindow!;
+//        }
+        window = UIApplication.shared.delegate?.window!
         return window
     }()
     

@@ -8,9 +8,9 @@
 
 import Foundation
 
-extension String{
+public extension String{
     /// 截取index之后的字符串(包含index)
-    public func mg_subString(from index: Int) -> String{
+    func mg_subString(from index: Int) -> String{
         if self.count > index {
             let startIndex = self.index(self.startIndex, offsetBy: index)
             let substring = self[startIndex..<self.endIndex]
@@ -20,7 +20,7 @@ extension String{
         }
     }
     /// 截取index之前的字符串（不包含index）
-    public func mg_subString(to index: Int) -> String{
+    func mg_subString(to index: Int) -> String{
         if self.count > index {
             let endIndex = self.index(self.startIndex, offsetBy: index)
             let substring = self[self.startIndex..<endIndex]
@@ -31,7 +31,7 @@ extension String{
     }
     
     /// 截取范围内的字符串(左右都包含)
-    public func mg_substring(from index1: Int , to index2: Int) -> String{
+    func mg_substring(from index1: Int , to index2: Int) -> String{
         if self.count > index1 && self.count > index2 {
             let startIndex = self.index(self.startIndex, offsetBy: index1)
             let endIndex = self.index(self.startIndex, offsetBy: index2)
@@ -55,7 +55,7 @@ extension String{
     }
     
     /// 本地化
-    public func tr() -> String{
+    var tr:String{
         return NSLocalizedString(self, comment: self);
     }
     
