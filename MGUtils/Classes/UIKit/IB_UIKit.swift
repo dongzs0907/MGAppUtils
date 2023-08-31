@@ -12,10 +12,10 @@ extension UILabel{
     
     @IBInspectable public var tr:String {
         get{
-            return self.tr;
+            return self.text ?? "" ;
         }
         set{
-            self.text = newValue.tr()
+            self.text = newValue.tr
         }
     }
     
@@ -26,10 +26,10 @@ extension UIButton{
     
     @IBInspectable public var tr:String {
         get{
-            return self.tr;
+            return self.titleLabel?.text ?? "";
         }
         set{
-            self.setTitle(newValue.tr(), for: UIControl.State.normal)
+            self.setTitle(newValue.tr, for: UIControl.State.normal)
         }
     }
     

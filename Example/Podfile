@@ -5,9 +5,4 @@ platform :ios, '12.0'
 target 'MGUtils_Example' do
   pod 'MGAppUtils', :path => '../'
 
-  target 'MGUtils_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

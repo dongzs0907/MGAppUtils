@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MGAppUtils
 
 class ViewController: UIViewController {
 
