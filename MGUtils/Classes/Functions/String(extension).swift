@@ -55,9 +55,12 @@ public extension String{
     }
     
     /// 本地化
-    var tr:String{
+//    var tr:String{
+//        return NSLocalizedString(self, comment: "");
+//    }
+    
+    func tr() -> String{
         return NSLocalizedString(self, comment: self);
     }
-    
     
 }
