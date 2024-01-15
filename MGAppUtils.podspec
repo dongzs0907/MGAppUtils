@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MGAppUtils'
-  s.version          = '0.1.7'
+  s.version          = '0.1.9'
   s.summary          = 'A short description of MGAppUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -42,6 +42,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
    s.dependency 'MBProgressHUD', '~> 1.2.0'
+   #s.dependency 'SwiftyStoreKit', :git => 'https://github.com/dongzs0907/SwiftyStoreKit.git'
   
 end
 # git add .
