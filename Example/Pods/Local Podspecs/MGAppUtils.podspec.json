@@ -1,6 +1,6 @@
 {
   "name": "MGAppUtils",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "summary": "A short description of MGAppUtils.",
   "description": "MGAppUtils主要包含了常用宏和方法的工具类，是为了后期项目开发方便，仅供自己使用",
   "homepage": "https://github.com/dongzs0907/MGAppUtils",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/dongzs0907/MGAppUtils.git",
-    "tag": "0.1.7"
+    "tag": "0.1.9"
   },
   "swift_versions": "5.0",
   "source_files": "MGUtils/Classes/**/*",
