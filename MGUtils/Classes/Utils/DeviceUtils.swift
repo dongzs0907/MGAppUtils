@@ -93,6 +93,8 @@ public class DeviceUtils:NSObject {
                 let itunesVersion = self.formatVersionString(version: versionStr)
                 let localVersion = self.formatVersionString(version: self.getLocalAppVersion())
                 onResult(itunesVersion < localVersion)
+            }else{
+                onResult(true);
             }
         }
     }
