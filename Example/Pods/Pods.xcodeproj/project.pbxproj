@@ -68,13 +68,13 @@
 /* Begin PBXFileReference section */
 		09698FD5D7906CE2E5F96FC65A325EF6 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		0DCA404B15E79C97AB0B960B69251128 /* Pods-MGUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGUtils_Example-resources.sh"; sourceTree = "<group>"; };
-		1E09D6D4EFAE12DFD92628549C95FF9F /* MGAppUtils-MG_Utils */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MGAppUtils-MG_Utils"; path = MG_Utils.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FAF805E6BAFE67A1F3610CEAC91B203 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1E09D6D4EFAE12DFD92628549C95FF9F /* MG_Utils.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MG_Utils.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAF805E6BAFE67A1F3610CEAC91B203 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		21027D2EA55CB28D122A3355F126781E /* Date(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date(extension).swift"; sourceTree = "<group>"; };
-		2BE9099DADC4CFFA9671CDBFD271C844 /* Pods-MGUtils_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-MGUtils_Example"; path = "libPods-MGUtils_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE9099DADC4CFFA9671CDBFD271C844 /* libPods-MGUtils_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGUtils_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		340261960DDA72E350EBBFAABBA3F480 /* MGAppUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGAppUtils.modulemap; sourceTree = "<group>"; };
 		3518B160F033ACD6069D295A8D0A8313 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		409C88116FFCAB2C21EB9DAA88F788F2 /* MGAppUtils */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MGAppUtils; path = libMGAppUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		409C88116FFCAB2C21EB9DAA88F788F2 /* libMGAppUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMGAppUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E865FDEA7F156E4C5DAD8B4E463C96 /* UIViewController(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController(extension).swift"; sourceTree = "<group>"; };
 		440D2F07DC35039916FA69876670B91E /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		49C0F2892567CE292D7B54C81E71C334 /* app_check_line.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = app_check_line.png; path = MGUtils/Assets/app_check_line.png; sourceTree = "<group>"; };
@@ -93,21 +93,21 @@
 		686EB1E748F2D06B7527FAFD75FF9B29 /* Pods-MGUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		76FD3B0F7E9CD032EF0FE45DE75ED5A0 /* UIColor(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor(extension).swift"; sourceTree = "<group>"; };
 		7DF9B898F2F859F1419AB0C4BA5FD6E4 /* LaunchManage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchManage.swift; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MBProgressHUD; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		921CB538A6740567B5F4E066572B08B4 /* ResourceBundle-MG_Utils-MGAppUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MG_Utils-MGAppUtils-Info.plist"; sourceTree = "<group>"; };
 		943FCCFED46226B598942B9E64BE3F8E /* String(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String(extension).swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0D87F6D570F0AFF720E7A2AD84F2156 /* UITableView(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView(extension).swift"; sourceTree = "<group>"; };
 		A29428D5996D8AC6FA10A4C2D7C2DA47 /* HUB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HUB.swift; sourceTree = "<group>"; };
 		A7CA2F0C64C970E9F625432F6AC7FAE3 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		AE298FAA0C5E39EEE83C9D45C73FF5D3 /* CALayer+Heartbeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+Heartbeat.h"; sourceTree = "<group>"; };
 		AEFC79E158B1DD5168AB6840936D60DB /* MGAppUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGAppUtils-umbrella.h"; sourceTree = "<group>"; };
-		BC480284D62312FE332B0B6C70F3B521 /* MGAppUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MGAppUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC480284D62312FE332B0B6C70F3B521 /* MGAppUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MGAppUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC485BD4C3285CD511B79183E5B5C2E4 /* CALayer+Heartbeat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Heartbeat.m"; sourceTree = "<group>"; };
 		CC89001A8FE6C0607780445363AA0C23 /* Pods-MGUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D02808FD65175FFAEAEEF0D9B76AEF38 /* Pods-MGUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D6AC7EBB2B02B72C94B4341F00210877 /* MGAppUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGAppUtils-dummy.m"; sourceTree = "<group>"; };
-		D7EE580CC4C722E1AD0CF2264FBF44C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D7EE580CC4C722E1AD0CF2264FBF44C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E3C3EE23F59529588B3EAA4EB1A22D8E /* UIView(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView(extension).swift"; sourceTree = "<group>"; };
 		E6584E1984A3CC79C447B818C6F79920 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E7DC4987B302BFF5E2120B531B511682 /* Array(extension).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array(extension).swift"; sourceTree = "<group>"; };
@@ -155,7 +155,6 @@
 				6152B0CD59AAF2557B3AA4375B61BEED /* MBProgressHUD.m */,
 				EFAA761B7E710C0CCA0130093F974789 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -178,10 +177,10 @@
 		322C61D89037E01DFE9AC7A37AB799DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
-				409C88116FFCAB2C21EB9DAA88F788F2 /* MGAppUtils */,
-				1E09D6D4EFAE12DFD92628549C95FF9F /* MGAppUtils-MG_Utils */,
-				2BE9099DADC4CFFA9671CDBFD271C844 /* Pods-MGUtils_Example */,
+				8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */,
+				409C88116FFCAB2C21EB9DAA88F788F2 /* libMGAppUtils.a */,
+				1E09D6D4EFAE12DFD92628549C95FF9F /* MG_Utils.bundle */,
+				2BE9099DADC4CFFA9671CDBFD271C844 /* libPods-MGUtils_Example.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -370,7 +369,7 @@
 			);
 			name = "Pods-MGUtils_Example";
 			productName = "Pods-MGUtils_Example";
-			productReference = 2BE9099DADC4CFFA9671CDBFD271C844 /* Pods-MGUtils_Example */;
+			productReference = 2BE9099DADC4CFFA9671CDBFD271C844 /* libPods-MGUtils_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		27AB2B6177E04EBC597FDC84A3188882 /* MGAppUtils */ = {
@@ -390,7 +389,7 @@
 			);
 			name = MGAppUtils;
 			productName = MGAppUtils;
-			productReference = 409C88116FFCAB2C21EB9DAA88F788F2 /* MGAppUtils */;
+			productReference = 409C88116FFCAB2C21EB9DAA88F788F2 /* libMGAppUtils.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		7B5BA5030940CA7D45120323771242FE /* MGAppUtils-MG_Utils */ = {
@@ -407,7 +406,7 @@
 			);
 			name = "MGAppUtils-MG_Utils";
 			productName = MG_Utils;
-			productReference = 1E09D6D4EFAE12DFD92628549C95FF9F /* MGAppUtils-MG_Utils */;
+			productReference = 1E09D6D4EFAE12DFD92628549C95FF9F /* MG_Utils.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
@@ -424,7 +423,7 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -581,7 +580,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGAppUtils";
 				IBSC_MODULE = MGAppUtils;
 				INFOPLIST_FILE = "Target Support Files/MGAppUtils/ResourceBundle-MG_Utils-MGAppUtils-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				PRODUCT_NAME = MG_Utils;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -665,7 +664,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MODULEMAP_FILE = Headers/Public/MBProgressHUD/MBProgressHUD.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -692,7 +691,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MGUtils_Example/Pods-MGUtils_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -715,7 +714,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MGUtils_Example/Pods-MGUtils_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -738,7 +737,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MODULEMAP_FILE = Headers/Public/MBProgressHUD/MBProgressHUD.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -809,8 +808,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -826,7 +824,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/MGAppUtils/MGAppUtils-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MODULEMAP_FILE = Headers/Public/MGAppUtils/MGAppUtils.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -852,7 +850,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/MGAppUtils/MGAppUtils-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MODULEMAP_FILE = Headers/Public/MGAppUtils/MGAppUtils.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -877,7 +875,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGAppUtils";
 				IBSC_MODULE = MGAppUtils;
 				INFOPLIST_FILE = "Target Support Files/MGAppUtils/ResourceBundle-MG_Utils-MGAppUtils-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				PRODUCT_NAME = MG_Utils;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
