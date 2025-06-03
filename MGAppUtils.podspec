@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MGAppUtils'
-  s.version          = '0.2.1'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of MGAppUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -25,11 +25,11 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DongZhenShan' => '68793512@qq.com' }
-  s.platform         = :ios, "15.0"
+  s.platform         = :ios, "12.0"
   s.source           = { :git => 'https://github.com/dongzs0907/MGAppUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '15.0'
+  s.ios.deployment_target = '12.0'
   s.swift_versions = '5.0'
   s.source_files = 'MGUtils/Classes/**/*'
   
