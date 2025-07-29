@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   
 end
 # git add .
-# git commit -m ""
+# git commit -m "fix"
 # git push origin master
 # git tag 0.1.5
 # git push origin --tag
