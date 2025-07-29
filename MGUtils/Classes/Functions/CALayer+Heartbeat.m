@@ -30,7 +30,7 @@
 - (void)beginHeartbeatAnimation{
     
     CABasicAnimation *opacityAnimation = [CABasicAnimation animationWithKeyPath:@"transform.scale.xy"];
-    opacityAnimation.fromValue = @0.98;
+    opacityAnimation.fromValue = @1.00;
     opacityAnimation.toValue = @1.03;
     opacityAnimation.duration = 0.4;
     opacityAnimation.autoreverses = YES;
