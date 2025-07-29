@@ -11,12 +11,12 @@
   "authors": {
     "DongZhenShan": "68793512@qq.com"
   },
-  "platforms": {
-    "ios": "15.0"
-  },
   "source": {
     "git": "https://github.com/dongzs0907/MGAppUtils.git",
     "tag": "0.2.1"
+  },
+  "platforms": {
+    "ios": "15.0"
   },
   "swift_versions": "5.0",
   "source_files": "MGUtils/Classes/**/*",
@@ -26,12 +26,7 @@
     ]
   },
   "pod_target_xcconfig": {
-    "VALID_ARCHS": "x86_64 armv7 arm64"
-  },
-  "dependencies": {
-    "MBProgressHUD": [
-      "~> 1.2.0"
-    ]
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
   },
   "swift_version": "5.0"
 }

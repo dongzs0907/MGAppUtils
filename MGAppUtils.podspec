@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-   s.dependency 'MBProgressHUD', '~> 1.2.0'
+#   s.dependency 'MBProgressHUD', '~> 1.2.0'
    #s.dependency 'SwiftyStoreKit', :git => 'https://github.com/dongzs0907/SwiftyStoreKit.git'
   
 end

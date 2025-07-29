@@ -11,6 +11,7 @@
 #endif
 
 #import "CALayer+Heartbeat.h"
+#import "MGUtils-Bridging-Header.h"
 
 FOUNDATION_EXPORT double MGAppUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char MGAppUtilsVersionString[];
