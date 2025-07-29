@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DongZhenShan' => '68793512@qq.com' }
-  s.platform         = :ios, "15.0"
+#  s.platform         = :ios, "15.0"
   s.source           = { :git => 'https://github.com/dongzs0907/MGAppUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -36,7 +36,9 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'MG_Utils' => ['MGUtils/Assets/*.png']
   }
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' # 排除老旧模拟器架构
+  }
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
